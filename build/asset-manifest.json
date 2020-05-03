@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7fea1e71.chunk.css",
+    "main.js": "/static/js/main.b42b0e60.chunk.js",
+    "main.js.map": "/static/js/main.b42b0e60.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c7d53805.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c7d53805.js.map",
+    "static/css/2.28a29f2c.chunk.css": "/static/css/2.28a29f2c.chunk.css",
+    "static/js/2.9202532f.chunk.js": "/static/js/2.9202532f.chunk.js",
+    "static/js/2.9202532f.chunk.js.map": "/static/js/2.9202532f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5314a522179159be717ae78fe83ffad2.js": "/precache-manifest.5314a522179159be717ae78fe83ffad2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.28a29f2c.chunk.css.map": "/static/css/2.28a29f2c.chunk.css.map",
+    "static/css/main.7fea1e71.chunk.css.map": "/static/css/main.7fea1e71.chunk.css.map",
+    "static/js/2.9202532f.chunk.js.LICENSE.txt": "/static/js/2.9202532f.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/static/media/doctor_bg.cb36b4da.jpg",
+    "static/media/github.svg": "/static/media/github.a112a001.svg",
+    "static/media/logout.png": "/static/media/logout.ada60a6b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7d53805.js",
+    "static/css/2.28a29f2c.chunk.css",
+    "static/js/2.9202532f.chunk.js",
+    "static/css/main.7fea1e71.chunk.css",
+    "static/js/main.b42b0e60.chunk.js"
+  ]
+}
