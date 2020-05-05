@@ -54,6 +54,15 @@
     border-radius: 0 !important;
 }
 
+.rcw-new-message {
+    font-family: "Jost", sans-serif;
+    font-size: 17px;
+}
+
+.rcw-new-message::placeholder {
+    font-size: 18px;
+}
+
 .rcw-send {
     outline: none;
 }
