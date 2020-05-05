@@ -37,17 +37,20 @@
 
 @-webkit-keyframes pulse {
     0% {
-		-webkit-transform: scale(0.95) translate(-11%, -11%);
+        -webkit-transform: scale(0.95);
+        -webkit-transform: translate(-11%, -11%);
 		-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
 	}
 
 	70% {
-		-webkit-transform: scale(1) translate(-11%, -11%);
+		-webkit-transform: scale(1);
+        -webkit-transform: translate(-11%, -11%);
 		-webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
 	}
 
 	100% {
-		-webkit-transform: scale(0.95) translate(-11%, -11%);
+		-webkit-transform: scale(0.95);
+        -webkit-transform: translate(-11%, -11%);
 		-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
@@ -100,14 +103,8 @@
     left: 0;
     border-radius: 50%;
     z-index: -1;
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation: pulse 2s infinite;
-    animation: pulse 2s infinite;
+    -webkit-animation: pulse 1s ease-in-out infinite both;
+	        animation: pulse 1s ease-in-out infinite both;
 }
 
 .changes {
