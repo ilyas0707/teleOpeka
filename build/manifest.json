@@ -3,14 +3,14 @@
   "name": "teleOpeka platform",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.ico",
       "sizes": "32x32",
       "type": "image/x-icon"
     },
     {
-      "src": "teleOpeka.png",
+      "src": "apple-touch-icon.png",
       "type": "image/png",
-      "sizes": "1000x1000"
+      "sizes": "192x192"
     }
   ],
   "start_url": ".",
