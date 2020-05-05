@@ -56,7 +56,7 @@ const Navbar = () => {
                         `${Styles.hamMenu} ${Styles.hamMenuMedia}`}>
                     <a href="/" className={Styles.ham} onClick={menuOpen}>
                         <span className={`${Styles.line} ${opened ? Styles.opened : ""}`}></span>
-                        <span className={Styles.line}></span>
+                        <span className={`${Styles.line} ${opened ? Styles.opened : ""}`}></span>
                         <span className={`${Styles.line} ${opened ? Styles.opened : ""}`}></span>
                     </a>
                 </div>

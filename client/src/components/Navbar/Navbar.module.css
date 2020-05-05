@@ -122,11 +122,15 @@
 }
 
 .line:nth-child(1).opened {
-    width: 30%;
-    transform: translateY(100%) rotate(40deg) translate(11px, -5px);
+    transform-origin: 0 100%;
+	transform: rotate(45deg) translate(3px, -3px);
+}
+
+.line:nth-child(2).opened {
+    opacity: 0;
 }
 
 .line:nth-child(3).opened {
-    width: 30%;
-    transform: translateY(-300%) rotate(-40deg) translate(11px, 5px);
+    transform-origin: 0 100%;
+	transform: rotate(-45deg) translate(13px, -1px);
 }
