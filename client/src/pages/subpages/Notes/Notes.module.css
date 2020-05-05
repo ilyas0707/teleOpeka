@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.add {
+    background: #00e600;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+@keyframes loading {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading {
+    display: block;
+    margin: 0 auto;
+    border: 10px solid #0C4492;
+    border-top: 10px solid #00e600;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: loading .5s linear infinite;
+    cursor: default;
+    margin-top: 20px;
+}

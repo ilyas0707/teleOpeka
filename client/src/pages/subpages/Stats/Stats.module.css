@@ -1,0 +1,154 @@
+.block {
+    padding: 20px;
+}
+
+.block {
+    padding: 20px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    width: 100%;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.info {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.item {
+    text-align: center;
+    width: 20%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.item:nth-child(2) {
+    margin: 30px 0;
+    width: 100%;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+		transform: scale(0.95) translate(-11%, -11%);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1) translate(-11%, -11%);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95) translate(-11%, -11%);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95) translate(-11%, -11%);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1) translate(-11%, -11%);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95) translate(-11%, -11%);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+.extra {
+    background: #0C4492;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item:nth-child(2) > .circle {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #0C4492;
+    color: #fff;
+    position: relative;
+}
+
+.item:nth-child(2) > .circle::before {
+    content: "";
+    width: 180px;
+    height: 180px;
+    background: #00e600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: -1;
+    animation: pulse 2s infinite;
+}
+
+.changes {
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+
+.text {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #00e600;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.edit {
+    background: #00e600;
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+@keyframes loading {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading {
+    display: block;
+    margin: 30px auto;
+    border: 10px solid #0C4492;
+    border-top: 10px solid #00e600;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: loading .5s linear infinite;
+    cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+    .item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+@import '~react-agenda/build/styles.css';
+@import '~react-datetime/css/react-datetime.css';
+
+.block {
+    padding: 20px;
+}
+
+.agenda__table.\--body {
+    overflow: visible;
+}
+
+.agenda-cell-item {
+    cursor: default;
+}
+
+.agenda-item-description {
+    text-align: center;
+}
+
+.agenda__prev {
+    outline: none;
+}
+
+.agenda__next {
+    outline: none;
+}
+
+.agenda-edit-event {
+    width: 100%;
+    display: none !important;
+    text-align: right;
+}
+
+.agenda-edit-modele {
+    display: inline-block;
+    width: auto;
+}
+
+.agenda-edit-modele::before {
+    cursor: pointer;
+}
+
+.edit-item-icon {
+    display: none !important;
+}
+
+small {
+    display: none;
+}
+
+section {
+    font-size: 18px !important;
+}

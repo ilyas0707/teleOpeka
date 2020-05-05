@@ -1,0 +1,49 @@
+.title {
+    text-align: center;
+}
+
+.block {
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.blockMedia {
+    padding: 20px 0;
+}
+
+.item {
+    width: 49%;
+    display: flex;
+}
+
+.itemMedia {
+    width: 100%;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.dot:after {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #00e600;
+}
+
+.heading {
+    font-size: 22px;
+}
+
+.text {
+    font-size: 18px;
+}

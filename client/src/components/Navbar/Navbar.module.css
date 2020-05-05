@@ -1,0 +1,132 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 70px;
+    width: 100%;
+    background: #0C4492;
+    box-sizing: border-box;
+    display: flex;
+    align-self: center;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoLink {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.logoLink:hover {
+    color: #00e600;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.menuMedia {
+    display: none;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.menuMedia.opened {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    list-style: none;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 15px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.link:hover {
+    background: #00e600;
+}
+
+.hamMenu {
+    display: none;
+}
+
+.hamMenuMedia {
+    display: block;
+    z-index: 2;
+}
+
+.ham {
+    margin-right: -20px;
+    padding-top: 10px;
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .3s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.line {
+    display: block;
+    height: 6px;
+    width: 60%;
+    background: #fff;
+    border-radius: 10px;
+    transform: translateY(-100%);
+    transition: all .3s;
+}
+
+.line:nth-child(1) {
+    width: 60%;
+    transform: translateY(25%);
+}
+
+.line:nth-child(3) {
+    width: 60%;
+    transform: translateY(-200%);
+}
+
+.opened {
+    width: 50%;
+    display: block;
+}
+
+.line:nth-child(1).opened {
+    width: 30%;
+    transform: translateY(100%) rotate(40deg) translate(11px, -5px);
+}
+
+.line:nth-child(3).opened {
+    width: 30%;
+    transform: translateY(-300%) rotate(-40deg) translate(11px, 5px);
+}

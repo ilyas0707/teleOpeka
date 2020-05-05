@@ -1,0 +1,54 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block {
+    position: relative;
+    min-height: calc(100vh - 70px);
+    margin-top: 70px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background: url("./assets/img/doctor_bg.jpg") 0 0 no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.overlay {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(102,255,102,.5) 0%, rgba(175,255,175,.5) 100%);
+}
+
+.main {
+    display: flex;
+}
+
+.interface {
+    width: calc(100% - 70px);
+}
+
+.scene {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        flex-direction: column-reverse;
+    }
+    .interface {
+        width: 100%;
+        height: calc(100vh - 70px);
+    }
+    .scene {
+        height: calc(100vh - 140px);
+    }
+}
