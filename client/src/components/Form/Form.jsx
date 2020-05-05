@@ -92,9 +92,11 @@ const Form = ({openForm}) => {
             <div className={Styles.overlay} onClick={() => openForm()}></div>
             <div className={Styles.form}>
                 { elems }
-                <div className={loading ? Styles.loading : Styles.buttons}>
-                    <a href="/" className={loading ? Styles.dn : Styles.cancel} onClick={e => {e.preventDefault(); openForm()}}>Отменить</a>
-                    <a href="/" className={loading ? Styles.dn : Styles.save} onClick={changeCard}>Сохранить</a>
+                <div className={Styles.center}>
+                    <div className={loading ? Styles.loading : Styles.buttons}>
+                        <a href="/" className={loading ? Styles.dn : Styles.cancel} onClick={e => {e.preventDefault(); openForm()}}>Отменить</a>
+                        <a href="/" className={loading ? Styles.dn : Styles.save} onClick={changeCard}>Сохранить</a>
+                    </div>
                 </div>
             </div>
         </div>

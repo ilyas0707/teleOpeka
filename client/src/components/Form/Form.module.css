@@ -59,6 +59,13 @@
     display: none;
 }
 
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .buttons {
     display: flex;
     width: 100%;

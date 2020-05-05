@@ -16,6 +16,12 @@ const Navbar = () => {
         }
     }
 
+    const hideMenu = () => {
+        if (opened === true) {
+            setOpened(false)
+        }
+    }
+
     const items = [
         { id: 1, name: "О нас", url: "/" },
         { id: 2, name: "Почему мы?", url: "/whyus" },
@@ -25,7 +31,7 @@ const Navbar = () => {
     const elems = items.map(({id, name, url}) => {
         return(
             <li key={ id } className={Styles.item}>
-                <NavLink to={ url } className={Styles.link}>{ name }</NavLink>
+                <NavLink to={ url } className={Styles.link} onClick={hideMenu}>{ name }</NavLink>
             </li>
         )
     })
@@ -38,7 +44,7 @@ const Navbar = () => {
         <div className={Styles.navbar}>
             <div className={`${Container.container} ${Styles.block}`}>
                 <div className={Styles.logo}>
-                    <NavLink to="/" className={Styles.logoLink}>teleOpeka</NavLink>
+                    <NavLink to="/" className={Styles.logoLink} onClick={hideMenu}>teleOpeka</NavLink>
                 </div>
                 <ul className={small ? 
                         Styles.menu : 
