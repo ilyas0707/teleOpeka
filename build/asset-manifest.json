@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.7fea1e71.chunk.css",
-    "main.js": "/static/js/main.b42b0e60.chunk.js",
-    "main.js.map": "/static/js/main.b42b0e60.chunk.js.map",
+    "main.css": "/static/css/main.d8df5855.chunk.css",
+    "main.js": "/static/js/main.6e0ad189.chunk.js",
+    "main.js.map": "/static/js/main.6e0ad189.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c7d53805.js",
     "runtime-main.js.map": "/static/js/runtime-main.c7d53805.js.map",
-    "static/css/2.28a29f2c.chunk.css": "/static/css/2.28a29f2c.chunk.css",
-    "static/js/2.9202532f.chunk.js": "/static/js/2.9202532f.chunk.js",
-    "static/js/2.9202532f.chunk.js.map": "/static/js/2.9202532f.chunk.js.map",
+    "static/css/2.6e52d585.chunk.css": "/static/css/2.6e52d585.chunk.css",
+    "static/js/2.99252907.chunk.js": "/static/js/2.99252907.chunk.js",
+    "static/js/2.99252907.chunk.js.map": "/static/js/2.99252907.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5314a522179159be717ae78fe83ffad2.js": "/precache-manifest.5314a522179159be717ae78fe83ffad2.js",
+    "precache-manifest.f46bed17d96ce7ddb79c787a929674f3.js": "/precache-manifest.f46bed17d96ce7ddb79c787a929674f3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.28a29f2c.chunk.css.map": "/static/css/2.28a29f2c.chunk.css.map",
-    "static/css/main.7fea1e71.chunk.css.map": "/static/css/main.7fea1e71.chunk.css.map",
-    "static/js/2.9202532f.chunk.js.LICENSE.txt": "/static/js/2.9202532f.chunk.js.LICENSE.txt",
+    "static/css/2.6e52d585.chunk.css.map": "/static/css/2.6e52d585.chunk.css.map",
+    "static/css/main.d8df5855.chunk.css.map": "/static/css/main.d8df5855.chunk.css.map",
+    "static/js/2.99252907.chunk.js.LICENSE.txt": "/static/js/2.99252907.chunk.js.LICENSE.txt",
+    "static/media/account.svg": "/static/media/account.71672f0b.svg",
+    "static/media/calendar.png": "/static/media/calendar.bc7c6dcb.png",
+    "static/media/chat.png": "/static/media/chat.e796ad41.png",
     "static/media/App.module.css": "/static/media/doctor_bg.cb36b4da.jpg",
     "static/media/github.svg": "/static/media/github.a112a001.svg",
-    "static/media/logout.png": "/static/media/logout.ada60a6b.png"
+    "static/media/indicator.png": "/static/media/indicator.85a30e4c.png",
+    "static/media/logout.svg": "/static/media/logout.f9150e2d.svg",
+    "static/media/materials.png": "/static/media/materials.b5abe6f8.png",
+    "static/media/notebook.png": "/static/media/notebook.0c249f63.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c7d53805.js",
-    "static/css/2.28a29f2c.chunk.css",
-    "static/js/2.9202532f.chunk.js",
-    "static/css/main.7fea1e71.chunk.css",
-    "static/js/main.b42b0e60.chunk.js"
+    "static/css/2.6e52d585.chunk.css",
+    "static/js/2.99252907.chunk.js",
+    "static/css/main.d8df5855.chunk.css",
+    "static/js/main.6e0ad189.chunk.js"
   ]
 }

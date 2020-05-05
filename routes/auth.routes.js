@@ -76,7 +76,7 @@ router.post(
         const token = jwt.sign(
             { userId: user.id },
             process.env.JWT_SECRET,
-            { expiresIn: "3h" }
+            { expiresIn: "12h" }
         )
 
         res.json({ token, userId: user.id })
