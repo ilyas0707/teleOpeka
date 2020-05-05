@@ -7,7 +7,7 @@ import 'react-chat-widget/lib/styles.css';
 const Chat = () => {
 
     const handleNewUserMessage = (newMessage) => {
-        console.log(`New message incoming! ${newMessage}`)
+        console.log(`New message incoming! ${newMessage}`)///
         addResponseMessage("Здравствуйте, скоро лечащий врач с вами свяжется")
     }
     
