@@ -24,14 +24,12 @@ const Agenda = ({ notes }) => {
         let text = value
         let tmp = String(text).match(/^(\d+):(\d+)$/)
         let hours = parseInt(tmp[1], 10)
-        // let minutes = parseInt(tmp[2], 10)
         return hours
     }
 
     const convertMinutes = (value) => {
         let text = value
         let tmp = String(text).match(/^(\d+):(\d+)$/)
-        // let hours = parseInt(tmp[1], 10)
         let minutes = parseInt(tmp[2], 10)
         return minutes
     }
@@ -61,8 +59,6 @@ const Agenda = ({ notes }) => {
                 classes       : 'green'
             }
     })
-
-    console.log(elems)
 
     let state = {
         items: elems,

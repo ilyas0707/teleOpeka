@@ -30,7 +30,8 @@ const Topline = () => {
     return(
         <div className={Styles.topline}>
             <NavLink to="/panel/account" className={Styles.nickname}>
-                <img className={Styles.user} src={ User } alt="user"/>Профиль
+                <img className={Styles.user} src={ User } alt="user"/>
+                <span className={Styles.account}>Профиль</span>
             </NavLink>
             <li className={Styles.item}>
                 <a href="/" className={`${Styles.link} ${Styles.colored}`} onClick={showModal}>

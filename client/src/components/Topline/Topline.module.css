@@ -12,11 +12,16 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    font-weight: 600;
 }
 
 .user {
-    width: 40px;
-    margin-right: 10px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.account {
+    padding-top: 10px;
 }
 
 .item {
