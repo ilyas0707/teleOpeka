@@ -25,12 +25,12 @@ const About = () => {
                     Если возникнет чрезвычайная ситуация опекун или родственник будет проинформирован об этом.
                     Врач, используя систему <span className={Styles.colored}>teleOpeka</span>, сможет провести вступительную диагностику и принять решение о посещении больного.
                 </p>
-                <p className={xsmall ? Styles.remark : `${Styles.remark} ${Styles.remarkMedia}`}>
-                    Created by<span className={`${Styles.colored} ${Styles.ml}`}>Ilyas Yangurazov</span>
-                    <a className={Styles.link } href="https://github.com/ilyas0707/teleOpeka" target="_blank" rel="noopener noreferrer">
-                        <img className={Styles.img} src={ Github } alt="github"/>
-                    </a>
-                </p>
+//                 <p className={xsmall ? Styles.remark : `${Styles.remark} ${Styles.remarkMedia}`}>
+//                     Created by<span className={`${Styles.colored} ${Styles.ml}`}>Ilyas Yangurazov</span>
+//                     <a className={Styles.link } href="https://github.com/ilyas0707/teleOpeka" target="_blank" rel="noopener noreferrer">
+//                         <img className={Styles.img} src={ Github } alt="github"/>
+//                     </a>
+//                 </p>
             </div>
         </div>
     )
