@@ -27,7 +27,7 @@
 }
 
 .remark {
-    display: inline-flex;
+    display: none;
     align-items: center;
     box-sizing: border-box;
     padding: 15px 20px;

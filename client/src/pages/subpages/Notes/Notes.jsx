@@ -25,6 +25,8 @@ const Notes = (userId) => {
         getData()
     }, [getData])
 
+    console.log(notes);
+
     const openForm = () => {
         if (opened === false) {
             setOpened(true)
